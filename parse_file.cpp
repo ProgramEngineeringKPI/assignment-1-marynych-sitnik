@@ -23,7 +23,7 @@ int parse(Student* students[], int length, ifstream& input_file){
         getline(input_file, str_has_contract, '\n');
         if(str_has_contract == "FALSE")
             has_contract = false;
-        else
+        else 
             has_contract = true;
         students[i] = new Student(surname, grades, has_contract);
     }
