@@ -3,6 +3,6 @@
 
 #include "student.h"
 
-void sort(Student**, int);  
+void sort(Student*&, int);  
 
 #endif

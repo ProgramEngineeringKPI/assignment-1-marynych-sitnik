@@ -3,6 +3,6 @@
 
 #include "student.h"
 
-int count_scolarship_conteders(Student** ,int);
+int count_scolarship_conteders(Student*& ,int);
 
 #endif

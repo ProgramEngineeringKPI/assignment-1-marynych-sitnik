@@ -4,6 +4,6 @@
 #include "student.h"
 #include <fstream>
 
-int parse(Student**, int, std::ifstream &);  
+void parse(Student*&, int&, std::ifstream &);  
 
 #endif

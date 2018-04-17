@@ -4,6 +4,6 @@
 #include "student.h"
 #include <fstream>
 
-void write_scolarships(Student**, int, std::ofstream &);  
+void write_scolarships(Student*&, int, std::ofstream &);  
 
 #endif
